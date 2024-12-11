@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: poppins;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(18, 39, 45);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(13, 81, 77);
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+   
+    padding-top: 25px ;
+}
+.title{
+    font-weight: lighter;
+}
+.title2{
+    font-weight: bold;
+    color: rgb(56,100, 104);
+}
+.link1{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+.link2{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
