@@ -2,6 +2,7 @@
     margin: 0;
     font-family: poppins;
     padding: 0;
+    box-sizing: border-box;
     
 }
 body{
@@ -14,6 +15,7 @@ a{
 }
 a:hover{
     color: rgb(13, 81, 77);
+    
 }
 .nav1{
     display: flex;
@@ -38,3 +40,80 @@ a:hover{
     gap: 10px;
     padding-top: 10px;
 }
+.singup{
+    display: flex;
+    background-color:rgb(56,100, 104) ;
+    padding: 3px;
+    border-radius: 9px;
+    transition: all 0,5s;
+    letter-spacing: 1px;
+    transition: transfrom 0.4s, box-shadow 0.3s, bakcground-color 0.3s;
+   
+}
+.singup:hover{
+    background-color:rgb(4, 31, 34) ;
+    color: white;
+   box-shadow: 0 0 10px rgb(59, 137, 124) ;
+}
+.section1{
+    display: flex;
+    gap: 50px;
+}
+  
+
+.web3{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 150px;
+transition: all 1s;
+}
+.web3:hover{
+    font-size: 100px;
+}
+
+.discreption{
+    margin-top: 70px;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.m1{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color:rgb(59, 137, 124) ;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.m1:hover{
+  transform: scale(1.07);
+  box-shadow: 0 0 20px rgb(59, 137, 124);
+
+}
+.m2{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color:rgb(59, 137, 124) ;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.m2:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 20px rgb(59, 137, 124);
+}
+.m3{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color:rgb(59, 137, 124) ;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.m3:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 20px rgb(59, 137, 124);
+}
+
